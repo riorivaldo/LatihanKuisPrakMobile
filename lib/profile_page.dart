@@ -46,8 +46,7 @@ class ProfilePage extends StatelessWidget {
               // Pastikan file 'assets/Profile.jpg' telah ditambahkan dan dideklarasikan di pubspec.yaml.
               CircleAvatar(
                 radius: 50,
-                backgroundColor: Colors.grey[300],
-                backgroundImage: const AssetImage('assets/Profile.jpg'),
+                backgroundImage: const AssetImage("assets/Profile.jpg"),
               ),
               const SizedBox(height: 20),
               // Menampilkan data dengan container berwarna pink muda
